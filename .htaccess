@@ -1,0 +1,21 @@
+#AddType text/cache-manifest .manifest
+# ----------------------------------------------------------------------
+# Start rewrite engine
+# ----------------------------------------------------------------------
+
+# Turning on the rewrite engine is necessary for the following rules and features.
+# FollowSymLinks must be enabled for this to work.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $1 !^(index\.php|public|images|robots\.txt|css)
+RewriteRule ^(.*)$ index.php/$1 [L]
+RewriteCond %{SCRIPT_FILENAME} -d
+RewriteCond %{SCRIPT_FILENAME} -f
+RewriteRule "(^|/)\." - [F]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+ErrorDocument 404 404.html
+</IfModule>

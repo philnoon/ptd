@@ -1,0 +1,257 @@
+	.normal{
+		font-style: normal;
+	}
+
+
+ .personal-wrapper{
+ }
+
+ .personal-wrapper{
+   background: #ffffff;
+   padding-bottom: 50px
+ }
+
+ 
+ .btn-delete{
+   position: absolute;
+   float: right;
+   margin-top: -25px
+ }
+
+ .pin-photo-wrapper{
+   display:block;
+   position: relative;
+   overflow: hidden
+ }
+
+ #progress{
+  width: 500px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #CCCCCC;
+  float: right;
+  height: 15px;
+  background: #ffffff;
+  margin-bottom: 15px;
+}
+
+.bar {
+ height: 100%;
+ background: #2586D0
+}
+
+.drag-drop-zone-wrapper{
+  width: 505px;
+  height: 550px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0px auto;
+}
+
+.fileinput-button {
+ overflow: hidden;
+ position: relative;
+ width: 500px;
+ height: 485px;
+ margin-left: 5px;
+ margin-right: 5px;
+ background: white;
+ background:  white;
+ border: 4px dashed #3B92D5;
+ cursor: pointer;
+ display: inline-block;
+ font-size: 14px;
+ line-height: 20px;
+ margin-bottom: 0;
+ padding: 4px 12px;
+ text-align: center;
+ vertical-align: middle;
+}
+
+.fileinput-button:hover{
+ background: #D6F6FA
+}
+
+
+.fudFile {
+ cursor: pointer;
+ direction: ltr;
+ font-size: 23px;
+ margin: 0;
+ opacity: 0;
+ position: absolute;
+ right: 0;
+ top: 0;
+ transform: translate(-300px, 0px) scale(4);
+ -webkit-transform: translate(-300px, 0px) scale(4);
+ -ms-transform:translate(-300px, 0px) scale(4);
+ width: 100%;
+ height: 100%;
+}
+
+#fudAvt,#fudCover{
+ height: 63px;
+ width: 119px;
+ border: 1px solid red;
+ transform: none
+}
+
+.fileinput-button .text{
+ clear: both;
+ display: inline;
+ top: 225px;
+ position: relative;
+ font-size: 20px;
+ font-family: sans-serif;
+}
+
+html, body, #map-canvas {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#pac-input {
+  background-color: #fff;
+  padding: 0 11px 0 13px;
+  margin-top: 10px;
+  width: 400px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  height: 50px;
+  text-overflow: ellipsis;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+  margin-left: -1px;
+  padding-left: 14px;  /* Regular padding-left + 1. */
+  width: 401px;
+}
+
+.pac-container {
+  font-family: Roboto;
+}
+
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.page-header{
+  margin-left: 10px;
+}
+
+.page-header h3{
+  font-weight: normal;
+}
+
+#map-canvas img {
+  max-width: none;
+}
+
+.wrapper {
+  margin-top: 10px;
+}
+
+
+.form{
+  height: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  padding-right: 10px;
+}
+
+.page-header h3{
+  margin-left: 10px;
+}
+
+body.pin-cursor{
+  cursor:url('<?php echo base_url() ?>statics/images/pin.png'), auto;
+}
+
+body #form{
+  cursor: pointer;
+}
+
+.gallery{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.gallery img{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+.add{
+  margin-bottom: 10px;
+  padding: 10px
+}
+
+.row .add-wrapper{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.row{
+  width: 100%;
+  margin: 0px;
+
+}
+
+.msg{
+  display: none;
+}
+
+.form{
+  margin-top: 10px;
+}
+
+div.growlUI { background: url(check48.png) no-repeat 10px 10px }
+div.growlUI h1, div.growlUI h2 {
+  color: white; padding: 5px 5px 5px 75px; text-align: left
+}
+
+.thumb-wrapper{
+  float: left;
+  margin-left: 5px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.thumb-wrapper img{
+  display:block;
+}
+
+.thumb-wrapper .operation a{
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+#map-canvas{
+  height: 500px;
+}

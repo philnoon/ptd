@@ -1,0 +1,21 @@
+.form-wrapper {
+    margin: 0px auto !important;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.form-wrapper .page-header{
+  margin-top: 15px;
+} 
+
+@media (max-width: 768px){
+    .form-wrapper{
+        max-width: 250px;
+    }
+}
+
+.create-account{
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
